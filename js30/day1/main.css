@@ -1,0 +1,59 @@
+html
+{
+  background-image: url("./res/wp.jpg");
+    font-family: Roboto;
+}
+
+div
+{
+  text-align: center;
+}
+
+h1
+{
+  color: white;
+  text-transform: uppercase;
+  /*text-decoration: underline;*/
+  position: absolute;
+  top: 1.3em;
+  width: 99%;
+  text-align: center;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 98%;
+    width: 99%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70em;
+}
+
+.key
+{
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0.3em;
+  color: white;
+  font-size: 2em;
+  border: solid 8px rgba(0, 0, 0, 1);
+  padding: 0.5em 0.7em;
+  transition: all .1s;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.pressed
+{
+  box-shadow: 0 0 12px #FFBF00;
+  border-color: #FFBF00;
+  transform: scale(1.5);
+}
